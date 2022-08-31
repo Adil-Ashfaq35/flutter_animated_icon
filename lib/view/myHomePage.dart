@@ -35,6 +35,7 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
             icon: AnimatedIcons.play_pause,
             progress: _animationController,
             size: 200,
+
           ),
         ),
       ),
