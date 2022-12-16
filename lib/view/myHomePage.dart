@@ -32,10 +32,9 @@ class _MyHomePageState extends State<MyHomePage> with SingleTickerProviderStateM
         child: GestureDetector(
           onTap: _iconTapped,
           child: AnimatedIcon(
-            icon: AnimatedIcons.play_pause,
+            icon: AnimatedIcons.event_add,
             progress: _animationController,
-            size: 200,
-
+            size: 150,
           ),
         ),
       ),
